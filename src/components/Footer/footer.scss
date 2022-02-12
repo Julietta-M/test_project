@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0 45px;
+  align-items: center;
+
+  &__image {
+    width: 372px;
+    margin-top: 26px;
+  }
+
+  &__button {
+    width: 500px;
+    height: 66px;
+    background: #000000;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    color: #ffffff;
+    font-family: "Montserrat";
+    cursor: pointer;
+    transition: background 1s;
+
+    &:hover {
+      background: #ffffff;
+      color: #000000;
+      border: 1px solid #000000;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    &__image {
+      width: 336px;
+    }
+
+    &__button {
+      width: 336px;
+      font-size: 18px;
+    }
+  }
+}
