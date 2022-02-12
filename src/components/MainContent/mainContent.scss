@@ -30,6 +30,10 @@
 
   &-button {
     grid-area: 3 / 2 / 4 / 3;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     width: 350px;
     height: 66px;
     background: #000000;

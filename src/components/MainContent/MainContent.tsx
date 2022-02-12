@@ -35,9 +35,9 @@ export default function MainContent(): ReactElement {
           sapien euismod rutrum. Proin suscipit mattis nisl nec pulvinar.
         </p>
       </div>
-      <button className="main__content-button">
+      <a className="main__content-button" href="#form">
         Lorem ipsum dolor sit amet
-      </button>
+      </a>
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function Form(): ReactElement {
     useForm(handleOnSubmit);
 
   return (
-    <form className="header__form">
+    <form id="form" className="header__form">
       <div className="header__form-title">Lorem ipsum</div>
       <label className="form__label">First Name</label>
       <input
