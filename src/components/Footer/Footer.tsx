@@ -7,7 +7,11 @@ export default function Footer(): ReactElement {
       <a className="footer__button" href="#form">
         Lorem ipsum dolor sit amet
       </a>
-      <img src="./payment.svg" className="footer__image" alt="payments" />
+      <img
+        src="./images/payment.svg"
+        className="footer__image"
+        alt="payments"
+      />
     </div>
   );
 }

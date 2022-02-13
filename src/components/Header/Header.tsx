@@ -13,7 +13,7 @@ export default function Header(): ReactElement {
             <span>Lorem ipsum dolor, consectetur elit</span>
             <img
               className="header__text-desc-img"
-              src="./big-arrow.svg"
+              src="./images/big-arrow.svg"
               alt="arrow"
             ></img>
           </div>

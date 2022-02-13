@@ -82,7 +82,11 @@ export default function Form(): ReactElement {
       </div>
 
       <div className="payment__container">
-        <img src="./payment.svg" className="payment_image" alt="payment" />
+        <img
+          src="./images/payment.svg"
+          className="payment_image"
+          alt="payment"
+        />
       </div>
     </form>
   );

@@ -9,7 +9,7 @@ export default function AdditionalContent(): ReactElement {
         <div className="additional__content-container">
           <div className="container__block">
             <img
-              src="./icon1.svg"
+              src="./images/icon1.svg"
               className="container__block-image"
               alt="icon"
             />
@@ -20,7 +20,7 @@ export default function AdditionalContent(): ReactElement {
 
           <div className="container__block">
             <img
-              src="./icon2.svg"
+              src="./images/icon2.svg"
               className="container__block-image"
               alt="icon"
             />
@@ -31,7 +31,7 @@ export default function AdditionalContent(): ReactElement {
 
           <div className="container__block">
             <img
-              src="./icon3.svg"
+              src="./images/icon3.svg"
               className="container__block-image"
               alt="icon"
             />
@@ -40,7 +40,7 @@ export default function AdditionalContent(): ReactElement {
 
           <div className="container__block">
             <img
-              src="./icon4.svg"
+              src="./images/icon4.svg"
               className="container__block-image"
               alt="icon"
             />

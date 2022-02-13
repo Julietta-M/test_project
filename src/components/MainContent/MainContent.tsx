@@ -8,7 +8,7 @@ export default function MainContent(): ReactElement {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </div>
       <img
-        src="./grid-blocks.svg"
+        src="./images/grid-blocks.svg"
         className="main__content-image"
         alt="blocks"
       />
